@@ -22,3 +22,6 @@ with open("contacts.json", "w") as f:
     save_contacts()
     def view_all():
     for name, info in contacts.items():
+    print(f"Name: {name}\nPhone: {info['Phone']}\nEmail: {info['Email']}\n")
+
+def search_contact():
