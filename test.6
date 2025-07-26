@@ -18,3 +18,6 @@ with open("contacts.json", "w") as f:
     name = input("Name: sjkl ")
     phone = input("Phone: 234567")
     email = input("Email: gf@123email.com")
+    contacts[name] = {"Phone": phone, "Email": email}
+    save_contacts()
+
