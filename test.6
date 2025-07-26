@@ -20,4 +20,5 @@ with open("contacts.json", "w") as f:
     email = input("Email: gf@123email.com")
     contacts[name] = {"Phone": phone, "Email": email}
     save_contacts()
-
+    def view_all():
+    for name, info in contacts.items():
