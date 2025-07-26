@@ -12,3 +12,5 @@ if os.path.exists("contacts.json"):
 	contacts = json.load(f)
 
 def save_contacts():`
+with open("contacts.json", "w") as f:
+        json.dump(contacts, f, indent=2)
