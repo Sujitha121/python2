@@ -27,3 +27,6 @@ with open("contacts.json", "w") as f:
 def search_contact():
 name = input("Enter name: ")
     if name in contacts:
+    print("Found:", contacts[name])
+    else:
+        print("Contact not found.")
