@@ -7,3 +7,5 @@ contacts = {}
 def load_contacts():
     global contacts
 
+if os.path.exists("contacts.json"):
+        with open("contacts.json", "r") as f:
